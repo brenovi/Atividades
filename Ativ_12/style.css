@@ -1,0 +1,11 @@
+.card {
+    border-radius: 0;
+  }
+  .card-img-top {
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .card-img-top  {
+    cursor: pointer;
+  }
