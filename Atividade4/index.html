@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Responsivo com Grid e Flex</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <form action="#" method="post">
+            <div>
+                <label for="username">Usuário:</label>
+                <input type="text" id="username" name="username">
+            </div>
+            <div>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <div>
+                <input type="submit" value="Login">
+            </div>
+        </form>
+        <form action="#" method="post">
+            <div>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+            </div>
+            <div>
+                <label for="subscribe">Assinar:</label>
+                <input type="checkbox" id="subscribe" name="subscribe">
+            </div>
+            <div>
+                <input type="submit" value="Assinar">
+            </div>
+        </form>
+        <h1>Loja de Pudins</h1>
+        <div class="menu">
+            <button class="categoria-button">Home</button>
+            <button class="categoria-button">About</button>
+            <button class="categoria-button">Services</button>
+            <button class="categoria-button">Contact</button>
+        </div>
+    </header>
+    <div class="container">
+        <div class="Principal">
+            <h2>Pudins Available for Purchase</h2>
+            <div class="item">
+                <img src="pudim suculento.jpg" alt="Imagem 1">
+                <h3>Pudim de leite condensado</h3>
+                <p>Price: $15,00</p>
+                <p>"Pudim com calda suculenta, feita de caramelo."</p>
+            </div>
+            <div class="item">
+                <img src="pudim-chocolate-branco-maracujc3a1.webp"Imagem 2">
+                <h3>Pudim de Chocolate branco com Maracujá</h3>
+                <p>Price: $30,00</p>
+                <p>"Pudim com chocolate branco e maracujá fresco."</p>
+            </div>
+            <div class="item">
+                <img src="pudim de morango.jpg" alt="Imagem 3">
+                <h3>Pudim de Morango</h3>
+                <p>Price: $25,00</p>
+                <p>"Pudim de Morango com morangos colhidos na hora!"</p>
+            </div>
+        </div>
+        <div class="coluna-lateral">
+            <h2>Discover More</h2>
+            <div class="categorias">
+                <h3>Categories</h3>
+                <button class="categoria-button">Leite condensado</button>
+                <button class="categoria-button">Chocolate branco com Maracujá</button>
+                <button class="categoria-button">Morango</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>All Rights Reserved®</p>
+    </footer>
+</body>
+</html>
