@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>Calculadora de Média</h2>
+    <input type="number" id="note1" placeholder="Número 1">
+    <input type="number" id="note2" placeholder="Número 2">
+    <input type="number" id="note3" placeholder="Número 3">
+    <button onclick="calculateAverage()">Calcular Média</button>
+    <script>
+        function calculateAverage() {
+  var note1 = parseFloat(document.getElementById("note1").value);
+  var note2 = parseFloat(document.getElementById("note2").value);
+  var note3 = parseFloat(document.getElementById("note3").value);
+  var average = (note1 + note2 + note3) / 3;
+  alert("The average is: " + average);
+}
+    </script>
+  </body>
+</html>
