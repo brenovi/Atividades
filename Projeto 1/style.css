@@ -1,0 +1,10 @@
+body {
+    background-color: blueviolet;
+    text-align: left;
+    /* Remove the incorrect selector */
+    .image-container {
+        display: flex;
+        justify-content: center; /* Center the image horizontally */
+        margin-top: 1em; /* Add margin-top to add space below the text */
+      }
+}
